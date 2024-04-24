@@ -1,0 +1,1 @@
+{"question": "How many numbers are in the list $ 36, 37, 38, \\ldots, 92, 93 ?$", "answer": "We subtract 35 from each member of the list to get $1,2,3,\\ldots,57,58$, so there are $\\boxed{58}$ numbers.", "agents_response": "The numbers in the list go from $36$ to $93$, so the numbers in the list are $93-36+1 = 58$. \n\nTherefore, there are $\\boxed{58}$ numbers in the list."}

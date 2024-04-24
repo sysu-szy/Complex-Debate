@@ -1,0 +1,1 @@
+{"question": "Evaluate $531^2 - 2\\cdot 531\\cdot 530 + 530^2$.", "answer": "We see that $531^2 - 2\\cdot 531\\cdot530 + 530^2 = (531-530)^2 = 1^2 = \\boxed{1}$.", "agents_response": "Recognizing the expression as the formula of a perfect square, $(a-b)^2 = a^2 - 2ab + b^2$, we can simplify the expression to $(531-530)^2=1^2=1$. So, the answer is \\boxed{1}."}

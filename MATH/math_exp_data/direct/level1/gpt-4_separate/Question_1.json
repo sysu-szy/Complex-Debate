@@ -1,0 +1,1 @@
+{"question": "Compute $\\sin 180^\\circ$.", "answer": "Rotating the point $(1,0)$ by $180^\\circ$ counterclockwise about the origin gives us the point $(-1,0)$, so $\\sin 180^\\circ = \\boxed{0}$.", "agents_response": "The sine of 180 degrees is 0.\n\nSo, the answer is $\\boxed{0}$."}

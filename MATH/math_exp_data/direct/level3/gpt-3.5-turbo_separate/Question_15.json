@@ -1,0 +1,1 @@
+{"question": "Evaluate $\\left(\\frac{i}{2}\\right)^2$.", "answer": "$(i/2)^2 = (i^2)/(2^2) = (-1)/4 = \\boxed{-\\frac{1}{4}}$", "agents_response": "To evaluate $\\left(\\frac{i}{2}\\right)^2$, we first simplify the fraction:\n$$\\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2} = \\frac{-1}{4} = -\\frac{1}{4}$$\n\nTherefore, $\\boxed{-\\frac{1}{4}}$ is the answer."}

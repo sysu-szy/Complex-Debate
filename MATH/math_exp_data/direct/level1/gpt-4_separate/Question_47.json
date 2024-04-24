@@ -1,0 +1,1 @@
+{"question": "Let $a,$ $b,$ $c,$ $d$ be the roots of\n\\[2x^4 - 8x^3 + 7 = 0.\\]Find $a + b + c + d.$", "answer": "By Vieta's formulas, $a + b + c + d = \\frac{8}{2} = \\boxed{4}.$", "agents_response": "By Vieta's formulas, the sum of the roots of the equation $2x^4 - 8x^3 + 0x^2 + 0x + 7 = 0$ is $-(-8)/2 = \\boxed{4}.$"}

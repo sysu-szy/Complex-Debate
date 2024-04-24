@@ -1,0 +1,1 @@
+{"question": "If $(x,y) = (3,9)$, what is $y^2 - 3xy + 8$?", "answer": "We have $y^2 -3xy + 8 = 9^2 - 3(3)(9) + 8 = 81 - 81 + 8 = \\boxed{8}$.", "agents_response": "If we substitute $x = 3$ and $y = 9$ into the equation $y^2 - 3xy + 8$, the equation becomes\n\n$9^2 - 3*3*9 + 8 = 81 - 81 + 8 = 8$. \n\nSo, $y^2 - 3xy + 8 = 8$ when $(x,y) = (3,9)$.\n\nSo, the answer is \\boxed{8}."}

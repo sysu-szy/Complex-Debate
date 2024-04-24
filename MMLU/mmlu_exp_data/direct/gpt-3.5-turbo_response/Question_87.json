@@ -1,0 +1,1 @@
+{"question": "How many bits are required to store one BCD digit ?: A) 1, B) 2, C) 3, D) 4", "answer": "D", "agents_response": "Each BCD digit can represent 10 different values (0-9), requiring 4 binary bits to store all possible combinations. Therefore, the correct answer is D) 4. (D) "}

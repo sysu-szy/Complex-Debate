@@ -1,0 +1,210 @@
+#1
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Example:
+*precondition:
+There are five houses of five colors (red, green, white, yellow, blue). Each house has a different nationality (British, Swedish, Danish, Norwegian, German). Each of the five drinks only one type of drink (tea, coffee, milk, beer, mineral water), smokes only one brand of cigarettes (PALL MALL, DUNHILL, BLUE MASTER, PRINCE, mixed cigarettes), and has only one type of pet (dog, bird, cat, horse, fish).
+No one has the same pets, smokes the same brand of cigarettes, or drinks the same drinks
+Now we know:
+1. The English lives in the red house.
+2. The Swede keeps a dog.
+3. The Dane drinks tea.
+4. The green house is on the left of the White House.
+5. Green house owner drinks coffee.
+6. The man who smokes PALLMALL cigarettes keeps a bird.
+7. The owner of the yellow house smokes DUNHILL cigarettes.
+8. The man who lives in the middle house drinks milk.
+9. The Norwegian lives in the first house.
+10. The man who smokes mixed cigarettes lives next to the man who has a cat.
+11. The horseman lives beside the man who smokes DUNHILL cigarettes.
+12. The man who smokes BLUEMASTER cigarettes drinks beer.
+13. The German smokes PRINCE cigarettes.
+14. The Norwegian lives next to the blue house.
+15. The neighbor of the man who smokes mixed cigarettes drinks mineral water.
+*question1: Is the statement "The Swede keeps a dog" true or false?
+*answer1: According to #2, the statement "The Swede keeps a dog" is true.
+*question2: Is the statement "The Dane keeps a dog" true or false?
+*answer2: According to #2, the statement "The Dane keeps a dog" is false.
+*question3: Is the statement "The German smokes PALLMALL cigarettes." true or false?
+*answer3: According to #13, the statement "The German smokes PALLMALL cigarettes." is false.
+*question4: Is the statement "The Norwegian smokes PRINCE cigarettes." true or false?
+*answer4: According to #13, the statement "The Norwegian smokes PRINCE cigarettes." is false.
+*question5: Is the statement "The Norwegian doesn't live next to the blue house." true or false?
+*answer5: According to #14, the statement "The Norwegian doesn't live next to the blue house." is false.
+*question6: Is the statement "The green house is on the left of the White House." true or false?
+*answer6: According to #4, the statement "The green house is on the left of the White House." is true.
+
+Let's understand the example given above and answer the following questions. Write down the analysis procedure.
+
+*question:
+1. Is the statement "The man who smokes BLUEMASTER cigarettes drinks beer." true or false?
+2. Is the statement "The Norwegian lives in the second house." true or false?
+3. Is the statement "The man who smokes BLUEMASTER cigarettes drinks tea." true or false?
+
+
+
+#2
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Example:
+*precondition:
+There are five houses of five colors (red, green, white, yellow, blue). Each house has a different nationality (British, Swedish, Danish, Norwegian, German). Each of the five drinks only one type of drink (tea, coffee, milk, beer, mineral water), smokes only one brand of cigarettes (PALL MALL, DUNHILL, BLUE MASTER, PRINCE, mixed cigarettes), and has only one type of pet (dog, bird, cat, horse, fish).
+No one has the same pets, smokes the same brand of cigarettes, or drinks the same drinks
+Now we know:
+1. The English lives in the red house.
+2. The Swede keeps a dog.
+3. The Dane drinks tea.
+4. The green house is on the left of the White House.
+5. Green house owner drinks coffee.
+6. The man who smokes PALLMALL cigarettes keeps a bird.
+7. The owner of the yellow house smokes DUNHILL cigarettes.
+8. The man who lives in the middle house drinks milk.
+9. The Norwegian lives in the first house.
+10. The man who smokes mixed cigarettes lives next to the man who has a cat.
+11. The horseman lives beside the man who smokes DUNHILL cigarettes.
+12. The man who smokes BLUEMASTER cigarettes drinks beer.
+13. The German smokes PRINCE cigarettes.
+14. The Norwegian lives next to the blue house.
+15. The neighbor of the man who smokes mixed cigarettes drinks mineral water.
+*question1: bool("The Swede keeps a dog") = ?
+*answer1: According to #2, bool("The Swede keeps a dog") = true.
+*question2: bool("The Dane keeps a dog") = ?
+*answer2: According to #2, bool("The Dane keeps a dog") = false.
+*question3: bool("The German smokes PALLMALL cigarettes.") = ?
+*answer3: According to #13, bool("The German smokes PALLMALL cigarettes.") = false.
+*question4: bool("The Norwegian smokes PRINCE cigarettes.") = ?
+*answer4: According to #13, bool("The Norwegian smokes PRINCE cigarettes.") = false.
+*question5: bool("The Norwegian doesn't live next to the blue house.") = ?
+*answer5: According to #14, bool("The Norwegian doesn't live next to the blue house.") = false.
+*question6: bool("The green house is on the left of the White House.") = ?
+*answer6: According to #4, bool("The green house is on the left of the White House.") = true.
+
+Let's understand the example given above and answer the following questions. Write down the analysis procedure.
+
+*question:
+1. bool("The man who smokes BLUEMASTER cigarettes drinks beer.") = ?
+2. bool("The Norwegian lives in the second house.") = ?
+3. bool("The man who smokes BLUEMASTER cigarettes drinks tea.") = ?
+
+
+
+#3
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Example:
+*precondition:
+There are five houses of five colors (red, green, white, yellow, blue). Each house has a different nationality (British, Swedish, Danish, Norwegian, German). Each of the five drinks only one type of drink (tea, coffee, milk, beer, mineral water), smokes only one brand of cigarettes (PALL MALL, DUNHILL, BLUE MASTER, PRINCE, mixed cigarettes), and has only one type of pet (dog, bird, cat, horse, fish).
+No one has the same pets, smokes the same brand of cigarettes, or drinks the same drinks
+Now we know:
+1. The English lives in the red house.
+2. The Swede keeps a dog.
+3. The Dane drinks tea.
+4. The green house is on the left of the White House.
+5. Green house owner drinks coffee.
+6. The man who smokes PALLMALL cigarettes keeps a bird.
+7. The owner of the yellow house smokes DUNHILL cigarettes.
+8. The man who lives in the middle house drinks milk.
+9. The Norwegian lives in the first house.
+10. The man who smokes mixed cigarettes lives next to the man who has a cat.
+11. The horseman lives beside the man who smokes DUNHILL cigarettes.
+12. The man who smokes BLUEMASTER cigarettes drinks beer.
+13. The German smokes PRINCE cigarettes.
+14. The Norwegian lives next to the blue house.
+15. The neighbor of the man who smokes mixed cigarettes drinks mineral water.
+*question1: Is the statement "The Swede keeps a dog" true or false?
+*answer1: According to #2, the statement "The Swede keeps a dog" is true.
+*question2: Is the statement "The Dane keeps a dog" true or false?
+*answer2: According to #2, the statement "The Dane keeps a dog" is false.
+*question3: Is the statement "The German smokes PALLMALL cigarettes." true or false?
+*answer3: According to #13, the statement "The German smokes PALLMALL cigarettes." is false.
+*question4: Is the statement "The Norwegian smokes PRINCE cigarettes." true or false?
+*answer4: According to #13, the statement "The Norwegian smokes PRINCE cigarettes." is false.
+*question5: Is the statement "The Norwegian doesn't live next to the blue house." true or false?
+*answer5: According to #14, the statement "The Norwegian doesn't live next to the blue house." is false.
+*question6: Is the statement "The green house is on the left of the White House." true or false?
+*answer6: According to #4, the statement "The green house is on the left of the White House." is true.
+
+Let's understand the example given above and answer the following questions. Write down the analysis procedure.
+
+*precondition:
+Li Ying, Zhao Lin and Wang Hong participated in the National Mathematics Competition for primary school students. They are players from Jincheng, Shishi and Shuixiang and have got the first, second and third prizes respectively. The three of them come from different cities and have got different prizes. Now we know:
+1. Li Ying is not a player of Jincheng.
+2. Zhao Lin is not a player of Shashi.
+3. The player of Golden City did not get the first prize.
+4. The player of Shashi got the second prize.
+5. Zhao Lin did not get the third prize.
+*question:
+1. Is the statement "Li Ying is a player of Jincheng." true or false?
+2. Is the statement "Zhao Lin is not a player of Shashi." true or false?
+3. Is the statement "The player of Golden City got the first prize." true or false?
+4. Is the statement "The player of Jincheng got the second prize." true or false?
+5. Is the statement "Zhao Lin did not get the third prize." true or false?
+
+
+
+
+#4
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Example:
+*precondition:
+There are five houses of five colors (red, green, white, yellow, blue). Each house has a different nationality (British, Swedish, Danish, Norwegian, German). Each of the five drinks only one type of drink (tea, coffee, milk, beer, mineral water), smokes only one brand of cigarettes (PALL MALL, DUNHILL, BLUE MASTER, PRINCE, mixed cigarettes), and has only one type of pet (dog, bird, cat, horse, fish).
+No one has the same pets, smokes the same brand of cigarettes, or drinks the same drinks
+Now we know:
+1. The English lives in the red house.
+2. The Swede keeps a dog.
+3. The Dane drinks tea.
+4. The green house is on the left of the White House.
+5. Green house owner drinks coffee.
+6. The man who smokes PALLMALL cigarettes keeps a bird.
+7. The owner of the yellow house smokes DUNHILL cigarettes.
+8. The man who lives in the middle house drinks milk.
+9. The Norwegian lives in the first house.
+10. The man who smokes mixed cigarettes lives next to the man who has a cat.
+11. The horseman lives beside the man who smokes DUNHILL cigarettes.
+12. The man who smokes BLUEMASTER cigarettes drinks beer.
+13. The German smokes PRINCE cigarettes.
+14. The Norwegian lives next to the blue house.
+15. The neighbor of the man who smokes mixed cigarettes drinks mineral water.
+*question1: bool("The Swede keeps a dog") = ?
+*answer1: According to #2, bool("The Swede keeps a dog") = true.
+*question2: bool("The Dane keeps a dog") = ?
+*answer2: According to #2, bool("The Dane keeps a dog") = false.
+*question3: bool("The German smokes PALLMALL cigarettes.") = ?
+*answer3: According to #13, bool("The German smokes PALLMALL cigarettes.") = false.
+*question4: bool("The Norwegian smokes PRINCE cigarettes.") = ?
+*answer4: According to #13, bool("The Norwegian smokes PRINCE cigarettes.") = false.
+*question5: bool("The Norwegian doesn't live next to the blue house.") = ?
+*answer5: According to #14, bool("The Norwegian doesn't live next to the blue house.") = false.
+*question6: bool("The green house is on the left of the White House.") = ?
+*answer6: According to #4, bool("The green house is on the left of the White House.") = true.
+
+Let's understand the example given above and answer the following questions. Write down the analysis procedure.
+
+*precondition:
+Li Ying, Zhao Lin and Wang Hong participated in the National Mathematics Competition for primary school students. They are players from Jincheng, Shishi and Shuixiang and have got the first, second and third prizes respectively. The three of them come from different cities and have got different prizes. Now we know:
+1. Li Ying is not a player of Jincheng.
+2. Zhao Lin is not a player of Shashi.
+3. The player of Golden City did not get the first prize.
+4. The player of Shashi got the second prize.
+5. Zhao Lin did not get the third prize.
+*question:
+1. bool("Li Ying is a player of Jincheng.") = ?
+2. bool("Zhao Lin is not a player of Shashi.") = ?
+3. bool("The player of Golden City got the first prize.") = ?
+4. bool("The player of Jincheng got the second prize.") = ?
+5. bool("Zhao Lin did not get the third prize.") = ?
+ 
+ 

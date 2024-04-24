@@ -1,0 +1,1 @@
+{"question": "Compute $\\arctan \\sqrt{3}.$  Express your answer in radians.", "answer": "Since $\\tan \\frac{\\pi}{3} = \\sqrt{3},$ $\\arctan \\sqrt{3} = \\boxed{\\frac{\\pi}{3}}.$", "agents_response": "The tangent of $\\frac{\\pi}{3}$ is $\\sqrt{3}$, so the arctangent of $\\sqrt{3}$ is $\\frac{\\pi}{3}$. Thus, $\\arctan \\sqrt{3} = \\boxed{\\frac{\\pi}{3}}$."}

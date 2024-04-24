@@ -1,0 +1,1 @@
+{"question": "Compute $\\arccos (-1).$  Express your answer in radians.", "answer": "Since $\\cos \\pi = -1,$ $\\arccos (-1) = \\boxed{\\pi}.$", "agents_response": "The arccosine of -1, or $\\arccos (-1)$, is the angle whose cosine is -1. This angle is $\\pi$ radians. \n\nTherefore, $\\arccos (-1) = \\pi$. \n\nSo, the solution to the problem is $\\boxed{\\pi}$."}

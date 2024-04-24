@@ -1,0 +1,1 @@
+{"question": "What is the mean of 8, 12, 16, 20 and 24?", "answer": "The mean is $\\frac{8+12+16+20+24}{5}=\\frac{80}{5}=\\boxed{16}$.", "agents_response": "To find the mean, you need to add up all the numbers and then divide by the total number of values.\n\n8 + 12 + 16 + 20 + 24 = 80\n\nThere are 5 numbers in total.\n\nMean = 80 / 5 = 16\n\n\\boxed{16}"}

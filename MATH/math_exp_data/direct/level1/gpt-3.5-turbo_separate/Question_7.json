@@ -1,0 +1,1 @@
+{"question": "Let $a,$ $b,$ and $c$ be the roots of $x^3 + 7x^2 - 11x - 2 = 0.$  Find $a + b + c.$", "answer": "By Vieta's formulas, $a + b + c = \\boxed{-7}.$", "agents_response": "Vieta's formulas tell us that the sum of the roots of a cubic $ax^3+bx^2+cx+d=0$ is $-b/a$. In this case, $a=1$ and $b=7$, so the sum of the roots is $-7/1 = \\boxed{-7}$."}

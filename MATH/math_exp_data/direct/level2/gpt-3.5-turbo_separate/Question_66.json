@@ -1,0 +1,1 @@
+{"question": "Compute $\\left(\\sqrt{103041}\\right)^2$.", "answer": "For any nonnegative number $n$, the value of $\\sqrt{n}$ is the number whose square is $n$.  So, when we square $\\sqrt{n}$, we get $n$.  Therefore, $\\left(\\sqrt{103041}\\right)^2 = \\boxed{103041}$.", "agents_response": "We know that $(\\sqrt{103041})^2 = 103041$.\n\nTherefore, $\\boxed{103041}$."}

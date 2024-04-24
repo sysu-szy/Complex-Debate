@@ -1,0 +1,1 @@
+{"question": "What is the greatest prime factor of 3105?", "answer": "Let's find the prime factorization of 3105: $3105=3^3\\cdot115=3^3\\cdot5\\cdot23$. The greatest prime factor of 3105 is $\\boxed{23}$.", "agents_response": "The prime factorization of 3105 is 5 * 13 * 47. The largest of these factors is 47.\nSo, \\boxed{47}."}

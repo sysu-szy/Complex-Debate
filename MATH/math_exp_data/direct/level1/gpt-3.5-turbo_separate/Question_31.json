@@ -1,0 +1,1 @@
+{"question": "Compute: $32^2 - 18^2$.", "answer": "$32^2 - 18^2$ can also be expressed as $(32+18)(32-18)$. This simplifies as $50 \\cdot 14$, which equals $\\boxed{700}$.", "agents_response": "First, we compute $32^2 = 1024$ and $18^2 = 324$. Then, subtracting $18^2$ from $32^2$ gives us $1024 - 324 = 700$.\n\nTherefore, $32^2 - 18^2 = \\boxed{700}$."}
